@@ -54,6 +54,10 @@ setup(
         'nose',
         'redis',
         'pymongo',
+        'kombu',
+        'billiard',
+        'mock',
+        'pytz',
     ],
     classifiers=[
         'Operating System :: OS Independent',
